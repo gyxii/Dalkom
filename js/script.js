@@ -1,3 +1,5 @@
+
+
 // Navbar toggle button for small screen
 const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
 navbarToggleBtn.addEventListener('click', () => {
@@ -5,8 +7,5 @@ navbarToggleBtn.addEventListener('click', () => {
 });
 
 
-function scrollIntoView(selector) {
-    const scrollTo = document.querySelector(selector);
-    scrollTo.scrollIntoView({ behavior: 'smooth' });
-  }
-  
+
+

@@ -39,21 +39,26 @@ a {
 }
 
 header {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 10px;
+    align-items: center;
 }
 
 .header_left {
     display: flex;
+    padding-left: 30px;
+
+
 }
 
 .navbar__menu {
     display: flex;
-    column-gap: 35px;
-    font-weight: bold;
-    font-size: 1.15rem;
+    width: 35%;
+    column-gap: 20px;
+
 }
 
 .navbar__menu a:hover {
@@ -68,9 +73,16 @@ header {
     top: 15px;
     right: 18px;
     display: none;
- 
+
 
 }
+
+.section__container {
+    max-width: 1200px;
+
+
+}
+
 
 /*setion*/
 #main {
@@ -84,7 +96,7 @@ header {
 }
 
 #main p.main_txt {
-    width: 1100px;
+
     position: absolute;
     top: 5%;
     left: 50%;
@@ -404,7 +416,7 @@ header {
 }
 
 /*copy*/
-
+@media screen and (max-width: 1280px) {}
 
 
 @media screen and (max-width :768px) {
@@ -415,43 +427,75 @@ header {
     header {
         flex-direction: column;
         align-items: flex-start;
-        padding: 0;
-
-    }
-
-    header a img {
-        padding: 15px;
-
-    }
-
-    .header_left {
         background-color: #f43b00;
-        width: 100%;
+         flex-wrap: wrap;
 
 
 
-    }
-
-    .navbar__menu {
-        width: 100%;
-        flex-direction: column;
-        display: none;
-        background-color: #fff;
-    
 
     }
 
-    .navbar__menu a {
+    .header_left img {
+        width: 80px;
+    }
 
-        width: 100%;
-        text-align: center;
+    .navbar__toggle-btn {
+        display: block;
 
     }
 
     .navbar__menu.open {
-        
+
         display: block;
     }
 
+    .navbar__menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        display: none;
+
+    }
+
+    .navbar__menu a {
+        color: #fff;
+        line-height: 40px;
+
+    }
+
+
+    .footer_inner {
+        padding: 50px 0;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .footer_inner img {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    #copy {
+        flex-direction: column;
+    }
+
+    .select_wrap select {
+        font-size: 0.8rem;
+        margin-top: 20px;
+        width: 200px;
+        height: 40px;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
+        color: #808080;
+        padding: 10px;
+        margin-top: 20px;
+    }
 
 }
