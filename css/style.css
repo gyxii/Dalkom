@@ -563,24 +563,19 @@ header {
         background-size: auto 70vw;
 
     }
-    #playgronud {
-        
-        height: 115vh;
-    }
-    #playgronud h2 {
-        font-size: 3rem;
 
-    }
 
     .box img {
         width: 100%;
         position: static;
+
 
     }
 
     .home img {
         width: 100%;
         position: static;
+        display: none;
 
     }
 
@@ -589,10 +584,12 @@ header {
         position: static;
 
     }
+
     .img-moving .menu {
-      
+
         background-size: auto 310px;
     }
+
     .footer_inner {
         padding: 50px 0;
         flex-direction: column;
@@ -603,16 +600,19 @@ header {
     .footer_inner img {
         width: 100%;
     }
+
     #banner .banner_img {
         padding: 67px;
         background: #2a31a0 url(../img/bg_supporter.png) no-repeat center bottom;
         background-size: cover;
     }
+
     .btn {
-     
+
         width: 200px;
-       
+
     }
+
     ul {
         padding: 0;
         text-align: center;
@@ -637,12 +637,14 @@ header {
         width: 100%;
         text-align: center;
     }
+
     .img_app {
         position: relative;
-      
+
         height: 729px;
         margin: 0 auto;
     }
+
     .img_app::after {
         content: '';
         display: block;
@@ -653,7 +655,7 @@ header {
         bottom: 0;
         background: transparent url(../img/bg_phone_01.png) no-repeat center top;
         background-size: 100% auto;
-   
+
     }
 
 }
@@ -663,25 +665,44 @@ header {
     html {
         font-size: 12px;
     }
+
     #playgronud {
-        height: 199vh;
+        height: 122vh;
+
+    }
+    #playgronud h2 {
+        font-size: 3rem;
+    }
+    #drink .title {
+        font-size: 2.5rem;
     }
     #banner .banner_img {
         padding: 67px;
         background: #2a31a0 url(../img/bg_supporter.png) no-repeat center bottom;
         background-size: cover;
     }
-   
+
+    #drink h2 {
+        margin-top: 200px;
+
+
+    }
+
+    .new-dal .new {
+        font-size: 2.5rem;
+    }
+
     .img_app {
         width: 100%;
         position: relative;
         height: 729px;
         margin: 0 auto;
     }
-    
+
     .img_app img {
         max-height: 68%;
-         max-width: 60%;
+        max-width: 60%;
     }
-   
+
+
 }
