@@ -387,8 +387,9 @@ header {
 /*footer*/
 /*copy*/
 #copy {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
 
+
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff;
     display: flex;
 
@@ -467,7 +468,7 @@ header {
         display: block;
     }
 
-    .navbar__menu a li {
+    .navbar__menu li {
         height: 40px;
         line-height: 40px;
         width: 100%;
@@ -477,8 +478,10 @@ header {
 
     }
 
-    .navbar__menu a:hover {
+    .navbar__menu li a:hover {
         color: #fff;
+
+
     }
 
     .navbar__toggle-btn {
@@ -658,6 +661,12 @@ header {
 
     }
 
+    #drink .title {
+        font-size: 3rem;
+        margin-top: 200px;
+
+    }
+
 }
 
 
@@ -670,16 +679,20 @@ header {
         height: 122vh;
 
     }
+
     #playgronud h2 {
         font-size: 3rem;
     }
+
     #drink .title {
         font-size: 2.5rem;
     }
+
     #banner .banner_img {
         padding: 67px;
         background: #2a31a0 url(../img/bg_supporter.png) no-repeat center bottom;
         background-size: cover;
+
     }
 
     #drink h2 {
