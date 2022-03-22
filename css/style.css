@@ -343,6 +343,8 @@ header {
     font-weight: bold;
     background-color: #f43b00;
     cursor: pointer;
+    color: #fff;
+
 }
 
 .btn a {
@@ -611,8 +613,9 @@ header {
     }
 
     .btn {
-
+       
         width: 200px;
+        color: #fff;
 
     }
 
